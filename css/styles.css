@@ -1,0 +1,12 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 320px;
+  margin: auto;
+  background-color: #57bb6b; 
+}
+header{
+  background-image: url();
+}
