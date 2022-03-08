@@ -8,6 +8,16 @@ body {
   background-color: #57bb6b; 
 }
 header{
-  background-image: url();
+  background-image: url(../img/fruits.webp);
   padding : 30px;
+  font-size: 20pt;
+  color: #57bb6b;
+  text-align: center;
+
 }
+
+div{
+  background-color:rgba(255, 255, 255, 0.849);
+  padding:20px;
+}
+
