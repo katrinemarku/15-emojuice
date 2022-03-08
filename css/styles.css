@@ -9,7 +9,6 @@ body {
 }
 header{
   background-image: url(../img/fruits.webp);
-  padding : 30px;
   font-size: 20pt;
   color: #57bb6b;
   text-align: center;
@@ -18,6 +17,20 @@ header{
 
 div{
   background-color:rgba(255, 255, 255, 0.849);
-  padding:20px;
+}
+
+footer{
+  height:467px;
+  color : white;
+}
+
+
+h1{
+  color: #57bb6b;
+}
+
+.button{
+ background-color: #57bb6b;
+ color : white;
 }
 
