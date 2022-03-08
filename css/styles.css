@@ -5,23 +5,27 @@ html{
 body {
   max-width: 320px;
   margin: auto;
+  background-color:#57bb6b;
 }
-header{
+
+header {
   background-image: url(../img/fruits.webp);
   font-size: 20pt;
   color: #57bb6b;
   text-align: center;
   background-color: #57bb6b; 
-
 }
 
-div{
+div {
+  width : 320px;
+  height : 167px;
   background-color:rgba(255, 255, 255, 0.849);
 }
 
 footer{
-  height:467px;
-  color : white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color : white;
 }
 
 
@@ -48,7 +52,17 @@ a{
 }
 
 footer p {
+  font-size: 12pt;
+  padding-top:70px;
   color: #57bb6b;
   text-align: center;
 }
 
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.element {
+  padding: 25px;
+}
