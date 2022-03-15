@@ -3,13 +3,14 @@ html{
 }
 
 body {
-  max-width: 320px;
+  margin-top: #57bb6b solid 8px;
+  max-width: 380px;
   margin: auto;
-  background-color:#57bb6b;
 }
 
 header {
-  background-image: url(../img/fruits.webp);
+  background : url(../img/fruits.webp);
+  background-size: cover;
   font-size: 20pt;
   color: #57bb6b;
   text-align: center;
@@ -20,6 +21,16 @@ div {
   width : 320px;
   height : 167px;
   background-color:rgba(255, 255, 255, 0.849);
+}
+
+main {
+  margin: 68px;
+}
+
+main h1 {
+  color : black;
+  font-size: 26pt;
+  text-align: center;
 }
 
 footer{
@@ -69,6 +80,7 @@ footer p {
 .container{
   display: flex;
   flex-direction: row;
+  justify-content:space-around;
 }
 
 .element {
