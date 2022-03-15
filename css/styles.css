@@ -3,9 +3,9 @@ html{
 }
 
 body {
-  margin-top : 8px solid #57bb6b;
   max-width: 380px;
-  margin: auto;
+  margin : 8px 30px 0px;
+  margin-top : 8px solid #57bb6b;
 }
 
 header {
@@ -86,4 +86,11 @@ footer p {
 
 .element {
   padding: 25px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
