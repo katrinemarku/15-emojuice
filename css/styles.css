@@ -4,8 +4,8 @@ html{
 
 body {
   max-width: 380px;
-  margin : 8px 30px 0px;
-  margin-top : 8px solid #57bb6b;
+  margin : 0px 30px 0px;
+  border-top : 8px solid #57bb6b;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
   color: #57bb6b;
   text-align: center;
   background-color: #57bb6b; 
-  height: 389px;
+  height: 380px;
 }
 
 div {
