@@ -70,6 +70,36 @@ a{
   color: white;
 }
 
+/* main */
+
+main{
+  background-color: white;
+  color: black;
+}
+
+main h1 {
+  padding: 95px 60px 24px 60px;
+  text-align: center;
+  font-family: 'Maven Pro';
+  font-size: 26px;
+}
+
+main p {
+  font-family: 'Quattrocento';
+  font-size: 16px;
+  text-align: center;
+  padding: 0px 60px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.element {
+  padding: 25px;
+}
 /* footer */
 
 footer{
@@ -77,10 +107,13 @@ footer{
 }
 
 footer h1 {
+  padding-top: 40px;
   font-size: 26px;
   color: #57bb6b;
   text-align: center;
   margin-bottom: 35px;
+  margin-top : 0px;
+  font-family:'Maven Pro';
 }
 
 footer p {
@@ -109,7 +142,6 @@ a{
   text-decoration: none;
   color: white;
 }
-
 
 /* footer fruits */
 
