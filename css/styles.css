@@ -103,6 +103,7 @@ main p {
 }
 
 /* article */
+
 article h1{
   color : white;
   font-family: 'Maven Pro';  
@@ -111,6 +112,30 @@ article h1{
   padding-top: 25px;
 }
 
+h2 {
+  color: black;
+  font-family: 'Sriracha';
+  font-size: 30px;
+  text-align: left;
+}
+
+article p {
+  font-family: 'Quattrocento';
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.541)
+}
+
+article a{
+  
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+
+
+}
 
 
 
