@@ -17,24 +17,25 @@ header {
   padding: 20px;
 }
 
+.title-container {
+  background-color: rgba(255, 255, 255, 0.884);
+}
+
+header h1{
+  padding: 35px 55px 0px 55px;
+  margin-bottom: 0px;
+}
+
 header p {
   font-size: 20px; 
   font-family: 'Quattrocento';
   color: #57bb6b;
   text-align: center;
-  margin: 0px 38px 26px 38px;
+  margin-top: 0px;
+  padding: 0px 38px 26px 38px;
 }
 
-header h1{
-  padding: 35px 55px 0px 55px;
-}
-
-.title-container {
-  background-color: rgba(255, 255, 255, 0.884);
-  margin-bottom: 35px;
-}
-
-/* button main */
+/* buttons header */
 
 .button-container {
   display: flex;
