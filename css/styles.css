@@ -102,7 +102,7 @@ main p {
 }
 
 .fruits img{
-  max-width: 25px;
+  max-width: 27px;
 }
 
 /* article */
@@ -164,7 +164,7 @@ article a{
   margin-bottom: 43px;
 }
 
-  .box-coffee{
+.box-coffee{
   background-color: #d3c6b2;
   box-shadow: black;
   border-radius: 15px;
@@ -237,6 +237,6 @@ a{
 }
 
 .fruits-footer img{
-  max-width: 25px;
+  max-width: 27px;
 }
 
