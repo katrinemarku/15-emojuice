@@ -78,10 +78,11 @@ main{
 }
 
 main h1 {
-  padding: 95px 60px 24px 60px;
+  padding: 95px 60px 10px 60px;
   text-align: center;
   font-family: 'Maven Pro';
   font-size: 26px;
+  margin-top: 0px;
 }
 
 main p {
@@ -100,6 +101,25 @@ main p {
 .element {
   padding: 25px;
 }
+
+/* article */
+article h1{
+  color : white;
+  font-family: 'Maven Pro';  
+  font-size: 26px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
 /* footer */
 
 footer{
