@@ -117,12 +117,15 @@ h2 {
   font-family: 'Sriracha';
   font-size: 30px;
   text-align: left;
+  margin-bottom: 0px;
 }
 
 article p {
   font-family: 'Quattrocento';
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.541)
+  color: rgba(0, 0, 0, 0.541);
+  margin-top: 0px;
+  margin-bottom: 102px;
 }
 
 article a{
@@ -131,27 +134,54 @@ article a{
   font-size: 14px;
   font-weight: bold;
   text-decoration: underline;
+  margin-bottom: 30px;
 }
 
 .box-container {
   display: flex;
   flex-direction: column;
   justify-content:space-around;
-
-
 }
 
+.box-banana{
+  background-color: #fff8d7;
+  box-shadow: black;
+  border-radius: 15px;
+  margin: 0px 29px;
+  padding-left: 38px;
+  margin-bottom: 43px;
+}
 
+.box-kiwi{
+  background-color: #c4f2ad;
+  box-shadow: black;
+  border-radius: 15px;
+  margin: 0px 29px;
+  padding-left: 38px;
+  margin-bottom: 43px;
+}
 
+  .box-coffee{
+  background-color: #d3c6b2;
+  box-shadow: black;
+  border-radius: 15px;
+  margin: 0px 29px;
+  padding-left: 38px;
+  margin-bottom: 43px;
+}
 
-
-
-
-
+.box-strawberry{
+  background-color: #f7a4b4;
+  box-shadow: black;
+  border-radius: 15px;
+  margin: 0px 29px;
+  padding-left: 38px;
+  margin-bottom: 43px;
+}
 
 /* footer */
 
-footer{
+footer {
   background-color : white;
 }
 
