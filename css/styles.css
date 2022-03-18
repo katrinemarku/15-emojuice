@@ -3,12 +3,14 @@ html{
 }
 
 body {
-  max-width: 380px;
-  margin : 0px 30px 0px;
+  max-width: auto;
+  margin-top: 0px;
+  /* margin : 0px 30px 0px; */
   border-top : 8px solid #57bb6b;
 }
 
 header {
+  margin-top : 0px;
   background : url(../img/fruits.webp);
   background-size: cover;
   font-size: 20pt;
@@ -21,23 +23,17 @@ header {
 div {
   width : 320px;
   height : 166px;
-  background-color:rgba(255, 255, 255, 0.849);
+  /* background-color:rgba(255, 255, 255, 0.849); */
 }
 
 main {
-  margin: 68px;
+  background-color: #57bb6b;
 }
 
 main h1 {
   color : black;
   font-size: 26pt;
   text-align: center;
-}
-
-footer{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color : white;
 }
 
 
@@ -58,7 +54,7 @@ h1{
   border-radius: 20px;
   margin-bottom: 13px;
   background-color: #57bb6b;
-  color : white;
+  /* color : white; */
   font-size: 20pt;
   border:none;
   font-family: 'Maven pro';
@@ -70,13 +66,6 @@ a{
   color: white;
 }
 
-footer p {
-  font-size: 12pt;
-  padding-top:70px;
-  color: #57bb6b;
-  text-align: center;
-  font-family: 'Maven Pro';
-}
 
 .container{
   display: flex;
@@ -91,6 +80,62 @@ footer p {
 .box-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer */
+
+footer{
+  background-color : white;
+
+}
+
+footer h1 {
+  font-size: 26px;
+  color: #57bb6b;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+footer p {
+  color: #57bb6b;
+  font-family: 'Maven Pro';
+  font-size: 12px;
+  padding-top: 70px;
+  margin : 0px 68px;
+  text-align: center;
+
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* button footer */
+
+.button{
+  color : white;
+  border-radius: 13px;
+  margin-bottom: 13px;
+  background-color: #57bb6b;
+  font-size: 20px;
+  border:none;
+  font-family: 'Maven pro';
+  padding: 10px 17px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
