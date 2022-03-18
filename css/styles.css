@@ -1,30 +1,59 @@
 html{
   scroll-behavior: smooth;
+  background: #57bb6b;
 }
 
 body {
-  max-width: auto;
-  margin-top: 0px;
-  margin : 0px 30px 0px;
-  border-top : 8px solid #57bb6b;
+  max-width: 380px;
+  margin : auto;
 }
 
+/* header */
+
 header {
-  margin-top : 0px;
-  background : url(../img/fruits.webp);
-  background-size: cover;
-  font-size: 20pt;
+  margin-top : 8px;
+  background-image: url(../img/fruits.webp);
+  background-size:cover ;
+  padding: 20px;
+}
+
+header p {
+  font-size: 20px; 
+  font-family: 'Quattrocento';
   color: #57bb6b;
   text-align: center;
-  background-color: #57bb6b; 
-  height: 380px;
+  font-size: 20pt;
 }
+
+header div {
+  background-color: rgba(255, 255, 255, 0.863);
+
+  ;
+}
+
+
+
+
+
+
+
 
 div {
   width : 320px;
   height : 166px;
   /* background-color:rgba(255, 255, 255, 0.849); */
 }
+
+
+
+
+
+
+
+
+
+
+
 
 main {
   background-color: #57bb6b;
