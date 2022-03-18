@@ -92,6 +92,8 @@ main p {
   padding: 0px 60px;
 }
 
+/* main fruits */
+
 .fruits{
   display: flex;
   flex-direction: row;
@@ -139,6 +141,8 @@ article a{
   text-decoration: underline;
   margin-bottom: 30px;
 }
+
+/* box */
 
 .box-container {
   display: flex;
