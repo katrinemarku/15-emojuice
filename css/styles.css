@@ -126,7 +126,11 @@ article p {
 }
 
 article a{
-  
+  color: black;
+  font-family: 'Maven Pro';
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .box-container {
