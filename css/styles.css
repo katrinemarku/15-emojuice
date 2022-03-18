@@ -92,14 +92,17 @@ main p {
   padding: 0px 60px;
 }
 
-.container{
+.fruits{
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+  padding: 30px 68px 95px 68px;
+  max-width: 265px;
 }
 
-.element {
-  padding: 25px;
+.fruits img{
+  max-width: 25px;
 }
 
 /* article */
@@ -224,13 +227,16 @@ a{
 
 /* footer fruits */
 
-.container{
+.fruits-footer{
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+  padding: 30px 68px 44px 68px;
+  max-width: 265px;
 }
 
-.element {
-  padding: 25px;
+.fruits-footer img{
+  max-width: 25px;
 }
 
