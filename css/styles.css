@@ -148,7 +148,7 @@ article a{
 
 .box-banana{
   background-color: #fff8d7;
-  box-shadow: black;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
   border-radius: 15px;
   margin: 0px 29px;
   padding-left: 38px;
@@ -157,7 +157,7 @@ article a{
 
 .box-kiwi{
   background-color: #c4f2ad;
-  box-shadow: black;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
   border-radius: 15px;
   margin: 0px 29px;
   padding-left: 38px;
@@ -166,7 +166,7 @@ article a{
 
 .box-coffee{
   background-color: #d3c6b2;
-  box-shadow: black;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
   border-radius: 15px;
   margin: 0px 29px;
   padding-left: 38px;
@@ -175,7 +175,7 @@ article a{
 
 .box-strawberry{
   background-color: #f7a4b4;
-  box-shadow: black;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
   border-radius: 15px;
   margin: 0px 29px;
   padding-left: 38px;
