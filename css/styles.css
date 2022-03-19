@@ -144,11 +144,11 @@ article a {
 
 article img {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
+  flex-wrap: nowrap;
+  align-items: ;
   max-width: 80px;
-  margin-left : 160px;
-  margin-bottom: 30px;
+  /* margin-left : 160px;
+  margin-bottom: 30px; */
 }
 
 /* box */
@@ -157,9 +157,12 @@ article img {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 }
 
-.box-banana {
+.banana {
+  max-width: 321px;
+  max-height: 240px;
   background-color: #fff8d7;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
   border-radius: 20px;
@@ -167,7 +170,9 @@ article img {
   padding-left: 38px;
 }
 
-.box-kiwi {
+.kiwi {
+  max-width: 321px;
+  max-height: 240px;
   background-color: #c4f2ad;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
   border-radius: 20px;
@@ -175,7 +180,9 @@ article img {
   padding-left: 38px;
 }
 
-.box-coffee {
+.coffee {
+  max-width: 321px;
+  max-height: 240px;
   background-color: #d3c6b2;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
   border-radius: 20px;
@@ -183,7 +190,9 @@ article img {
   padding-left: 38px;
 }
 
-.box-strawberry {
+.strawberry {
+  max-width: 321px;
+  max-height: 240px;
   background-color: #f7a4b4;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
   border-radius: 20px;
