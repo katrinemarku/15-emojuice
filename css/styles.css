@@ -114,15 +114,14 @@ article h1 {
   font-family: 'Maven Pro';  
   text-align: center;
   font-size: 26px;
-  padding-top: 25px;
 }
 
-h2 {
+.item h1 {
   color: black;
   font-family: 'Sriracha';
-  text-align: left;
   font-size: 30px;
-  margin-bottom: 0px;
+  padding-right: 38px;
+  margin-top: 0px;
 }
 
 article p {
@@ -130,80 +129,63 @@ article p {
   color: rgba(0, 0, 0, 0.541);
   font-size: 16px;
   margin-top: 0px;
-  /* margin-bottom: 100px; */
 }
 
 article a {
   color: black;
   font-family: 'Maven Pro';
-  font-weight: bold;
   text-decoration: underline;
   font-size: 14px;
-  margin-top: 50px;
-}
-
-article img {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: ;
-  max-width: 80px;
-  /* margin-left : 160px;
-  margin-bottom: 30px; */
 }
 
 /* box */
 
-.box-container {
+.article-container {
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  
+}
+
+.item {
+  text-align: left;
+  padding-top: 30px;
+  min-width: 320px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
+  border-radius: 20px;
+}
+
+.product img {
+  max-width: 80px;
 }
 
 .banana {
-  max-width: 321px;
-  max-height: 240px;
   background-color: #fff8d7;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
-  border-radius: 20px;
-  margin: 0px 29px 43px;
-  padding-left: 38px;
+  text-align: center;
 }
 
 .kiwi {
-  max-width: 321px;
-  max-height: 240px;
   background-color: #c4f2ad;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
-  border-radius: 20px;
-  margin: 0px 29px 43px;
-  padding-left: 38px;
+  text-align: center;
 }
 
 .coffee {
-  max-width: 321px;
-  max-height: 240px;
   background-color: #d3c6b2;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
-  border-radius: 20px;
-  margin: 0px 29px 43px;
-  padding-left: 38px;
+  text-align: center;
 }
 
 .strawberry {
-  max-width: 321px;
-  max-height: 240px;
   background-color: #f7a4b4;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
-  border-radius: 20px;
-  margin: 0px 29px 43px;
-  padding-left: 38px;
+  text-align: center; 
 }
 
 /* footer */
 
 footer {
   background-color : white;
+  width: 380px;
 }
 
 footer h1 {
@@ -238,7 +220,7 @@ footer p {
   font-size: 20px;
 }
 
-a{
+footer a{
   text-decoration: none;
   color: white;
 }
