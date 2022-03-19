@@ -112,21 +112,25 @@ main p {
 article h1 { 
   color : white;
   font-family: 'Maven Pro';  
-  text-align: center;
   font-size: 26px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .item h1 {
   color: black;
   font-family: 'Sriracha';
   font-size: 30px;
-  padding-right: 38px;
-  margin-top: 0px;
+  margin: 0px 0px 9px;
+  text-align: left;
+  padding-top: 25px;
 }
 
 article p {
   font-family: 'Quattrocento';
-  color: rgba(0, 0, 0, 0.541);
+  color: black;
+  opacity: 0.5;
   font-size: 16px;
   margin-top: 0px;
 }
@@ -136,91 +140,47 @@ article a {
   font-family: 'Maven Pro';
   text-decoration: underline;
   font-size: 14px;
+  padding-right: 70px;
 }
 
-/* article kiwi */
-.kiwi-article{
-  background-color: #c4f2ad;
-  width: 380px;
+article img {
+  max-width: 80px;
 }
-
-.kiwi-article img{
-  max-width: 100px;
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-
-.kiwi-container{
-  display: flex;
-  justify-content: center;
-  background-color: white;
-  border-radius: 50%;
-  margin: 0px 100px;
-
-}
-
-.kiwi-article h1 {
-  text-align: left;
-  font-family: 'Maven Pro';
-}
-
-.kiwi-article p {
-  color : white;
-  font-family: 'Quattrocento';
-  font: 16px;
-  padding: 69px ;
-}
-
-.title-container p {
-  
-}
-
-
-
-
-
 
 /* box */
 
 .article-container {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   flex-direction: column;
-  
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .item {
   text-align: left;
-  padding-top: 30px;
-  min-width: 320px;
+  padding-left: 38px;
+  width: 270px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.726);
   border-radius: 20px;
-}
-
-.product img {
-  max-width: 80px;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
 }
 
 .banana {
   background-color: #fff8d7;
-  text-align: center;
 }
 
 .kiwi {
   background-color: #c4f2ad;
-  text-align: center;
 }
 
 .coffee {
   background-color: #d3c6b2;
-  text-align: center;
 }
 
 .strawberry {
   background-color: #f7a4b4;
-  text-align: center; 
 }
 
 /* footer */
@@ -282,3 +242,42 @@ footer a{
   max-width: 27px;
 }
 
+
+
+
+
+
+
+/* article kiwi */
+.kiwi-article{
+  background-color: #c4f2ad;
+  width: 380px;
+}
+
+.kiwi-article img{
+  max-width: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.kiwi-container{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0px 100px;
+
+}
+
+.kiwi-article h1 {
+  text-align: left;
+  font-family: 'Maven Pro';
+}
+
+.kiwi-article p {
+  color : white;
+  font-family: 'Quattrocento';
+  font: 16px;
+  padding: 69px ;
+}
