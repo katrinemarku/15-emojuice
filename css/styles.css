@@ -5,13 +5,13 @@ html {
 
 body {
   max-width: 380px;
-  margin : auto;
+  margin: auto;
 }
 
 /* header */
 
 header {
-  margin-top : 8px;
+  margin-top: 8px;
   background-image: url(../img/fruits.webp);
   background-size: cover;
   padding: 20px;
@@ -75,6 +75,7 @@ a {
 main {
   background-color: white;
   color: black;
+  display: block;
 }
 
 main h1 {
@@ -110,7 +111,7 @@ main p {
 /* article */
 
 article h1 { 
-  color : white;
+  color: white;
   font-family: 'Maven Pro';  
   font-size: 26px;
   text-align: center;
@@ -188,7 +189,7 @@ article img {
 /* footer */
 
 footer {
-  background-color : white;
+  background-color: white;
   width: 380px;
 }
 
@@ -199,7 +200,7 @@ footer h1 {
   padding-top: 40px;
   font-size: 26px;
   margin-bottom: 5px;
-  margin-top : 0px;
+  margin-top: 0px;
 }
 
 footer p {
@@ -208,7 +209,7 @@ footer p {
   text-align: center;
   font-size: 12px;
   padding-top: 70px;
-  margin : 0px 50px 0px 50px;
+  margin: 0px 50px 0px 50px;
   opacity: 1;
 }
 
@@ -255,27 +256,36 @@ footer a{
 .kiwi-article img{
   max-width: 100px;
   display: flex;
-  justify-content: center;
+  align-self: center;
   padding: 20px;
 }
 
 .kiwi-container{
+  padding: 10px;
   display: flex;
   justify-content: center;
   background-color: white;
   border-radius: 50%;
-  margin: 0px 100px;
-
+  margin: 0 105px;
+  box-shadow: rgba(0, 0, 0, 0.726);
 }
 
 .kiwi-article h1 {
-  text-align: left;
-  font-family: 'Maven Pro';
+  text-align: center;
+  font-family: 'Sriracha', 'regular';
+  font-size: 30px;
+  font-weight: lighter;
+  padding-top: 69px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .kiwi-article p {
-  color : white;
+  color: black;
+  opacity: 0.5;
   font-family: 'Quattrocento';
   font: 16px;
-  padding: 69px ;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 38px;
 }
