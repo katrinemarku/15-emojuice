@@ -246,7 +246,7 @@ footer a{
   max-width: 27px;
 }
 
-/* article kiwi */
+/*  kiwi.html */
 
 .kiwi-article{
   background-color: #c4f2ad;
@@ -293,19 +293,21 @@ footer a{
 
 .kiwi-description {
  background-color: #57bb6b;
- text-align: left;
+ height: 689px;
 }
 
 .kiwi-description h1 { 
-  padding-top : 60px;
-  text-align : left;
+  text-align: left;
+  padding-top : 85px;
+  padding-left : 60px;
 }
 
 .kiwi-description p { 
   text-align: left;
   color: white;
   opacity : 0.75;
-  padding-right : 85px ;
+  padding-left : 60px;
+  padding-right : 60px;
 }
 
 .kiwi-description img {
@@ -329,3 +331,28 @@ footer a{
   font-weight: lighter;
   font-size: 16px;
 }
+
+/* .kiwi-other-products {
+  background-color: #c4f2ad;
+  margin-top: 0px;
+}
+
+.kiwi-other-products h1 {
+  text-align: center;
+  padding-top: 50px;
+  /* padding-bottom: 34px; */
+}
+
+.kiwi-products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.kiwi-products .strawberry{
+  max-width: 151px;
+  margin-left: 100px;
+} */
+
