@@ -251,6 +251,7 @@ footer a{
 .kiwi-article{
   background-color: #c4f2ad;
   width: 380px;
+  height: 402px;
 }
 
 .kiwi-article img{
@@ -288,4 +289,30 @@ footer a{
   text-align: center;
   margin-top: 0px;
   margin-bottom: 38px;
+}
+
+.kiwi-description {
+ background-color: #57bb6b;
+ text-align: left;
+}
+
+.kiwi-description h1 { 
+  padding-top : 60px;
+  text-align : left;
+}
+
+.kiwi-description p { 
+  text-align: left;
+  color: white;
+  opacity : 0.75;
+  padding-right : 85px ;
+}
+
+.kiwi-description img {
+  max-width : 246px;
+  margin-left : 60px;
+}
+
+.kiwi-description h2 {
+
 }
