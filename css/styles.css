@@ -311,8 +311,21 @@ footer a{
 .kiwi-description img {
   max-width : 246px;
   margin-left : 60px;
+  margin-bottom: 35px ;
 }
 
 .kiwi-description h2 {
+  font-family: 'Quattrocento';
+  font-weight: lighter;
+  color: white;
+  font-size: 18px;
+  margin : 0 60px;
+}
 
+.kiwi-description ul {
+  margin : 18px 40px 54px;
+  color: white;
+  font-family: 'Quattrocento';
+  font-weight: lighter;
+  font-size: 16px;
 }
