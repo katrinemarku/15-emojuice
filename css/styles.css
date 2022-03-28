@@ -8,8 +8,6 @@ body {
   margin: auto;
 }
 
-/* header */
-
 header {
   margin-top: 8px;
   background-image: url(../img/fruits.webp);
@@ -34,8 +32,6 @@ header p {
   margin-top: 0px;
   padding: 0px 38px 26px 38px;
 }
-
-/* buttons header */
 
 .button-container {
   display: flex;
@@ -70,8 +66,6 @@ a {
   color: white;
 }
 
-/* main */
-
 main {
   background-color: white;
   color: black;
@@ -93,8 +87,6 @@ main p {
   padding: 0px 60px;
 }
 
-/* main fruits */
-
 .fruits {
   display: flex;
   flex-direction: row;
@@ -107,8 +99,6 @@ main p {
 .fruits img {
   max-width: 27px;
 }
-
-/* article */
 
 article h1 { 
   color: white;
@@ -150,8 +140,6 @@ article img {
   max-width: 80px;
 }
 
-/* box */
-
 .article-container {
   display: flex;
   flex-direction: column;
@@ -186,8 +174,6 @@ article img {
   background-color: #f7a4b4;
 }
 
-/* footer */
-
 footer {
   background-color: white;
   width: 380px;
@@ -214,8 +200,6 @@ footer p {
   opacity: 1;
 }
 
-/* footer button */
-
 .button {
   color: white;
   background-color: #57bb6b;
@@ -232,8 +216,6 @@ footer a{
   color: white;
 }
 
-/* footer fruits */
-
 .fruits-footer {
   display: flex;
   flex-direction: row;
@@ -249,20 +231,20 @@ footer a{
 
 /*  kiwi.html */
 
-.kiwi-article{
+.kiwi-article {
   background-color: #c4f2ad;
   width: 380px;
   height: 402px;
 }
 
-.kiwi-article img{
+.kiwi-article img {
   max-width: 100px;
   display: flex;
   align-self: center;
   padding: 20px;
 }
 
-.kiwi-container{
+.kiwi-container {
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -335,27 +317,81 @@ footer a{
   font-size: 16px;
 }
 
-.kiwi-products {
+.kiwi-products h2 {
+  text-align: left;
+  font-family: 'Sriracha';
+  font-size : 20px;
+  padding-top: 5px;
+  color: black;
+  margin-bottom: 0px;
+}
+
+div.kiwi-products {
   background-color: #c4f2ad;
   margin-top: 0px;
   height: 409px;
-}
-
-.kiwi-other-products h1 {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 34px;
-}
-
-.kiwi-products {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
+}
+
+.items {
+  padding-left: 15px;
+  padding-bottom: 10px;
+  width: 151px;
+  border-radius: 15px;
+  margin : 0px 10px 35px 10px;
+  padding-bottom: 10px;
+}
+
+.our-products {
+  font-family: Maven Pro;
+  font-size: 26px;
+  color : black;
+  padding : 20px 0px 20px 69px;
+}
+
+.acess-to-our-products {
+  color: white;
+  background-color: #57bb6b;
+  border:none;
+  font-family: 'Maven pro';
+  border-radius: 13px;
+  padding: 10px 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 69px;
+
+}
+
+.items a {
+  font-family:'Maven Pro';
+  font-size: 38px;
+  text-decoration: none;
+  opacity: 0.5;
+  padding: 0px;
+}
+
+.items img{
+  text-align: right;
+  width: 55px;
+}
+
+.container-with-plus {
+  display : flex;
+  flex-direction : row;
+  justify-content: space-between;
+  margin: 0px 20px;
   align-items: flex-end;
 }
 
-.kiwi-products .strawberry{
-  max-width: 151px;
-  margin-left: 100px;
+.container-with-plus-coffee {
+  display : flex;
+  flex-direction : row;
+  justify-content: space-between;
+  margin: 0px 20px;
+  align-items: flex-end;
+  margin-top: 33px;
 }
